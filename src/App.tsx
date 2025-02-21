@@ -52,7 +52,7 @@ function App() {
 
       <div className="flex">
         <div className="w-[40px] h-screen border-r border-gray-700"></div>
-        <div className="w-[200px] h-screen flex flex-col border-r border-gray-700 p-4">
+        <div className="w-max h-screen flex flex-col border-r border-gray-700 p-5">
           {folders.map((folder) => (
             <Folder folder={folder} />
           ))}
